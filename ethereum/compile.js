@@ -9,7 +9,7 @@ const source = fs.readFileSync(campaignPath, "utf8");
 var input = {
   language: "Solidity",
   sources: {
-    "Campaign.sol": { content: source }
+    Campaign: { content: source }
   },
   settings: {
     outputSelection: {
